@@ -1,0 +1,714 @@
+/* =====================================================
+   APPLICATION ROOT
+===================================================== */
+
+
+#root {
+
+    min-height:
+        100vh;
+
+    display:
+        flex;
+
+    flex-direction:
+        column;
+
+}
+
+
+
+/* =====================================================
+   APP WRAPPER
+===================================================== */
+
+
+.app-container {
+
+    min-height:
+        100vh;
+
+    display:
+        flex;
+
+    flex-direction:
+        column;
+
+}
+
+
+
+/* =====================================================
+   MAIN CONTENT AREA
+===================================================== */
+
+
+.main-content {
+
+
+    flex:
+        1;
+
+
+    padding:
+        20px;
+
+
+    background:
+        #f8f9fa;
+
+
+}
+
+
+
+/* =====================================================
+   NAVBAR
+===================================================== */
+
+
+.navbar {
+
+
+    position:
+        sticky;
+
+
+    top:
+        0;
+
+
+    z-index:
+        1000;
+
+
+}
+
+
+
+.navbar-brand {
+
+
+    font-size:
+        22px;
+
+
+    font-weight:
+        700;
+
+
+}
+
+
+
+
+
+/* =====================================================
+   PAGE CONTAINER
+===================================================== */
+
+
+.page-container {
+
+
+    padding:
+        20px;
+
+
+}
+
+
+
+.page-header {
+
+
+    display:
+        flex;
+
+
+    justify-content:
+        space-between;
+
+
+    align-items:
+        center;
+
+
+    margin-bottom:
+        25px;
+
+
+}
+
+
+
+.page-title {
+
+
+    font-size:
+        26px;
+
+
+    font-weight:
+        700;
+
+
+}
+
+
+
+
+
+/* =====================================================
+   DASHBOARD LAYOUT
+===================================================== */
+
+
+.dashboard-layout {
+
+
+    display:
+        flex;
+
+
+    min-height:
+        100vh;
+
+
+}
+
+
+
+
+
+.dashboard-content {
+
+
+    flex:
+        1;
+
+
+    padding:
+        20px;
+
+
+    overflow-x:
+        hidden;
+
+
+}
+
+
+
+
+
+/* =====================================================
+   ADMIN / VENDOR PANEL
+===================================================== */
+
+
+.admin-layout,
+.vendor-layout {
+
+
+    display:
+        flex;
+
+
+    min-height:
+        100vh;
+
+
+}
+
+
+
+.admin-main,
+.vendor-main {
+
+
+    flex:
+        1;
+
+
+    background:
+        #f8f9fa;
+
+
+}
+
+
+
+/* =====================================================
+   TABLE RESPONSIVE
+===================================================== */
+
+
+.table-responsive {
+
+
+    overflow-x:
+        auto;
+
+
+}
+
+
+/* =====================================================
+   SIDEBAR ANIMATION
+===================================================== */
+
+
+.sidebar-wrapper {
+
+    transition:
+        transform 0.3s ease-in-out;
+
+}
+
+
+
+.sidebar-open {
+
+    transform:
+        translateX(0);
+
+}
+
+
+
+.sidebar-close {
+
+    transform:
+        translateX(-100%);
+
+}
+
+
+
+
+
+/* =====================================================
+   MOBILE SIDEBAR OVERLAY
+===================================================== */
+
+
+.sidebar-overlay {
+
+
+    position:
+        fixed;
+
+
+    top:
+        0;
+
+
+    left:
+        0;
+
+
+    width:
+        100%;
+
+
+    height:
+        100%;
+
+
+    background:
+        rgba(0,0,0,0.5);
+
+
+    z-index:
+        1020;
+
+
+}
+
+
+
+
+
+/* =====================================================
+   MODAL HELPERS
+===================================================== */
+
+
+.modal-content {
+
+
+    border:
+        none;
+
+
+    border-radius:
+        15px;
+
+
+}
+
+
+
+.modal-header {
+
+
+    border-bottom:
+        1px solid #dee2e6;
+
+
+}
+
+
+
+.modal-footer {
+
+
+    border-top:
+        1px solid #dee2e6;
+
+
+}
+
+
+
+
+
+/* =====================================================
+   FORM STYLES
+===================================================== */
+
+
+.form-control {
+
+
+    border-radius:
+        8px;
+
+
+    padding:
+        10px 14px;
+
+
+}
+
+
+
+.form-control:focus {
+
+
+    box-shadow:
+        0 0 0 .2rem rgba(13,110,253,.15);
+
+
+}
+
+
+
+.form-label {
+
+
+    font-weight:
+        600;
+
+
+}
+
+
+
+
+
+/* =====================================================
+   BUTTON CUSTOMIZATION
+===================================================== */
+
+
+.btn {
+
+
+    border-radius:
+        8px;
+
+
+    transition:
+        all .3s ease;
+
+
+}
+
+
+
+.btn-primary {
+
+
+    background:
+        #0d6efd;
+
+
+    border:
+        none;
+
+
+}
+
+
+
+.btn-primary:hover {
+
+
+    transform:
+        translateY(-1px);
+
+
+}
+
+
+
+
+
+/* =====================================================
+   CART
+===================================================== */
+
+
+.cart-item {
+
+
+    background:
+        white;
+
+
+    border-radius:
+        12px;
+
+
+    padding:
+        15px;
+
+
+    margin-bottom:
+        15px;
+
+
+}
+
+
+
+
+
+.cart-summary {
+
+
+    background:
+        white;
+
+
+    padding:
+        20px;
+
+
+    border-radius:
+        12px;
+
+
+    box-shadow:
+        var(--shadow);
+
+
+}
+
+
+
+
+
+/* =====================================================
+   CHECKOUT
+===================================================== */
+
+
+.checkout-card {
+
+
+    background:
+        white;
+
+
+    padding:
+        25px;
+
+
+    border-radius:
+        15px;
+
+
+}
+
+
+
+
+
+/* =====================================================
+   RESPONSIVE DESIGN
+===================================================== */
+
+
+@media(max-width:992px){
+
+
+    .sidebar-wrapper {
+
+
+        position:
+            fixed;
+
+
+        top:
+            0;
+
+
+        left:
+            0;
+
+
+        height:
+            100vh;
+
+
+        z-index:
+            1030;
+
+
+    }
+
+
+
+    .main-content {
+
+
+        padding:
+            15px;
+
+
+    }
+
+
+}
+
+
+
+
+
+@media(max-width:576px){
+
+
+    .page-title {
+
+
+        font-size:
+            20px;
+
+
+    }
+
+
+
+    .page-header {
+
+
+        flex-direction:
+            column;
+
+
+        align-items:
+            flex-start;
+
+
+        gap:
+            10px;
+
+
+    }
+
+
+
+    .card {
+
+
+        border-radius:
+            10px;
+
+
+    }
+
+
+
+}
+
+
+
+
+/* =====================================================
+   DARK MODE SUPPORT
+===================================================== */
+
+
+.dark {
+
+
+    background:
+        #121212;
+
+
+    color:
+        #ffffff;
+
+
+}
+
+
+
+.dark .main-content {
+
+
+    background:
+        #121212;
+
+
+}
+
+
+
+.dark .card,
+.dark .cart-item,
+.dark .cart-summary,
+.dark .checkout-card {
+
+
+    background:
+        #1e1e1e;
+
+
+    color:
+        white;
+
+
+}
+
+
+
+.dark .form-control {
+
+
+    background:
+        #2b2b2b;
+
+
+    color:
+        white;
+
+
+    border-color:
+        #444;
+
+
+}
